@@ -8,3 +8,7 @@ class gestion_tareas_valeria(models.Model):
      nombre = fields.Char()
      descripcion = fields.Text()
 
+@api.depends('value')
+def _value_pc(self):
+        for record in self:
+            record.value2 = float(record.value) / 100

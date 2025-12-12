@@ -1,13 +1,13 @@
 {
     'name': "gestion_tareas_valeria",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "Módulo de gestión de tareas",
 
     'description': """
-Long description of module's purpose
+    Módulo de ejemplo
     """,
 
-    'author': "My Company",
+    'author': "Valeria B",
     'website': "https://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
@@ -21,13 +21,13 @@ Long description of module's purpose
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
     ],
     # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+  #  'demo': [
+   #     'demo/demo.xml',
+   # ],
 }
 
