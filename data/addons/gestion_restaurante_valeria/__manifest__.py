@@ -1,5 +1,5 @@
 {
-    'name': "gestion_restaurante_valeria",
+    'name': "Gestión de Restaurante",
 
     'summary': "Short (1 phrase/line) summary of the module's purpose",
 
@@ -7,7 +7,7 @@
 Long description of module's purpose
     """,
 
-    'author': "My Company",
+    'author': "Valeria",
     'website': "https://www.yourcompany.com",
 
     # Categories can be used to filter modules in modules listing
@@ -21,7 +21,7 @@ Long description of module's purpose
 
     # always loaded
     'data': [
-        # 'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
     ],
