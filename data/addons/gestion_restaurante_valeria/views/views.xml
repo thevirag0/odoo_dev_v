@@ -8,8 +8,7 @@
       <field name="arch" type="xml">
         <list>
           <field name="name"/>
-          <field name="value"/>
-          <field name="value2"/>
+          <field name="description"/>
         </list>
       </field>
     </record>
@@ -52,6 +51,10 @@
 
     <menuitem name="List" id="gestion_restaurante_valeria.menu_1_list" parent="gestion_restaurante_valeria.menu_1"
               action="gestion_restaurante_valeria.action_window"/>
+<<<<<<< HEAD
+=======
+    
+>>>>>>> refs/remotes/origin/main
 
   </data>
 </odoo>

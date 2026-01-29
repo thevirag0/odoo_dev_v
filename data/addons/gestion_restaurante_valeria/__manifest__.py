@@ -1,7 +1,7 @@
 {
     'name': "Gestión de Restaurante",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "Gestión de restaurante Valeria",
 
     'description': """
 Long description of module's purpose
@@ -29,5 +29,7 @@ Long description of module's purpose
     'demo': [
         'demo/demo.xml',
     ],
+    'installable': True,
+    'application': True,
 }
 
