@@ -52,8 +52,6 @@
 
     <menuitem name="List" id="gestion_restaurante_valeria.menu_1_list" parent="gestion_restaurante_valeria.menu_1"
               action="gestion_restaurante_valeria.action_window"/>
-    <menuitem name="Server to list" id="gestion_restaurante_valeria" parent="gestion_restaurante_valeria.menu_2"
-              action="gestion_restaurante_valeria.action_server"/>
 
   </data>
 </odoo>
